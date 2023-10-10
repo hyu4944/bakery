@@ -1,0 +1,113 @@
+@font-face {
+    font-family: 'Pretendard-ExtraBold';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BookkMyungjo-Bd';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RIDIBatang';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+
+
+
+
+
+body{
+    font-family: 'Pretendard';
+    color: #232323;
+}
+
+
+
+#wrap{
+    width: 100%;
+}
+
+header, section, footer{
+    width: 100%;
+    position: relative;
+}
+
+
+.section__inner{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 150px 0 140px 0;
+}
+
+
+
+@media (max-width: 1920px){
+    .section__inner, .in_footer{
+        width: 90%;
+        
+    }
+
+    #in_header{
+        width: 80%;
+    }  
+
+
+
+}
+
+
+
+@media (max-width: 1520px){
+    .section__inner{
+        padding: 10vw 0 11vw 0;
+    }
+
+    #section03>.section__inner{
+        padding-bottom: 5vw;
+    }
+
+   
+
+}
+
+
+@media (max-width: 1100px){
+    .section__inner{
+        padding: 13vw 0 18vw 0;
+    }
+
+   
+
+}
+
+@media (max-width: 500px){
+    .section__inner, .in_footer{
+        width: 90%;
+        
+    }
+
+    .section__inner{
+        padding: 23vw 0 28vw 0;;
+    }
+
+   
+
+}
+
+
